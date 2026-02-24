@@ -1,0 +1,472 @@
+2026-02-03 12:38:29,239 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:38:30,595 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:47:04,239 | INFO | app_logger | Incoming Question: What is LangChain?
+2026-02-03 12:47:04,288 | ERROR | app_logger | Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-02-03 12:48:12,636 | INFO | app_logger | 🛑 Application Stopped
+2026-02-03 12:48:13,632 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:48:17,843 | INFO | app_logger | 🛑 Application Stopped
+2026-02-03 12:48:18,881 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:48:21,789 | INFO | app_logger | 🛑 Application Stopped
+2026-02-03 12:48:22,692 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:48:27,103 | INFO | app_logger | 🛑 Application Stopped
+2026-02-03 12:49:09,506 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:49:53,852 | INFO | app_logger | Incoming Question: What is LangChain?
+2026-02-03 12:49:53,900 | ERROR | app_logger | Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-02-03 12:51:48,380 | INFO | app_logger | 🛑 Application Stopped
+2026-02-03 12:51:49,356 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:51:54,974 | INFO | app_logger | 🛑 Application Stopped
+2026-02-03 12:52:20,293 | INFO | app_logger | 🚀 Application Started
+2026-02-03 12:52:51,328 | INFO | app_logger | Incoming Question: What is LangChain?
+2026-02-03 12:52:51,890 | INFO | app_logger | Generated Answer: LangChain is an open-source framework for building large language models (LLMs) into production-ready applications. It was created by Josh Browder, the founder of DoNotPay, to simplify the process of integrating LLMs into various use cases.
+
+LangChain provides a set of tools and libraries that enable developers to build, train, and deploy LLMs in a more efficient and scalable way. It supports popular LLMs like LLaMA, BERT, and T5, and allows developers to integrate them with other technologies like databases, APIs, and web applications.
+
+Some key features of LangChain include:
+
+1. Model management: LangChain provides a simple way to manage and deploy LLMs, including model training, validation, and deployment.
+2. Data integration: LangChain allows developers to easily integrate LLMs with various data sources, including databases, APIs, and file systems.
+3. Task automation: LangChain provides a set of pre-built tasks and workflows that enable developers to automate common tasks, such as data preprocessing and model fine-tuning.
+4. Collaboration: LangChain supports collaboration among developers, allowing multiple users to work together on LLM development and deployment.
+
+Overall, LangChain aims to make it easier for developers to build and deploy LLM-based applications, and to accelerate the adoption of LLMs in various industries.
+2026-02-03 12:55:44,766 | INFO | app_logger | 🛑 Application Stopped
+2026-02-03 12:55:45,782 | INFO | app_logger | 🚀 Application Started
+2026-02-03 14:33:29,330 | INFO | app_logger | 🚀 Application Started
+2026-02-03 14:35:34,746 | INFO | app_logger | Incoming Question: What does success look like for this service in the next 1–2 months?
+2026-02-03 14:35:35,209 | INFO | app_logger | Generated Answer: To determine what success looks like for this service in the next 1-2 months, I'll need more information about the service. However, I can provide a general outline of key performance indicators (KPIs) that can be used to measure success.
+
+Some possible KPIs for a service in the next 1-2 months include:
+
+1. **User acquisition**: The number of new users signing up for the service.
+2. **User engagement**: The number of active users, time spent on the platform, and frequency of usage.
+3. **Revenue growth**: The increase in revenue generated from the service, whether through subscriptions, transactions, or advertising.
+4. **Customer satisfaction**: The number of positive reviews, ratings, and feedback from users.
+5. **Key feature adoption**: The percentage of users adopting specific features or functionalities.
+
+To provide a more specific answer, please provide more context about the service, such as:
+
+* What type of service is it (e.g., software, e-commerce, education, etc.)?
+* What are the primary goals of the service?
+* What are the current challenges or pain points?
+
+With this information, I can provide a more tailored answer on what success looks like for the service in the next 1-2 months.
+2026-02-03 14:47:04,862 | INFO | app_logger | Incoming Question: What RAG means?
+2026-02-03 14:47:05,233 | INFO | app_logger | Generated Answer: RAG can have multiple meanings depending on the context. 
+
+1. RAG can be an abbreviation for 'Rest And Game', often used in sports.
+2. RAG can also be an abbreviation for 'Racing Against Gravity', which is a phrase used in some contexts.
+3. In the UK, RAG is also an abbreviation for 'Raising and Giving', often referring to charity fundraising events.
+4. RAG can also be an abbreviation for 'Rugby Against Gays', but this term is outdated and considered derogatory.
+
+However, in many contexts, RAG is an abbreviation for 'Red, Amber, Green', which is a color-coded system used for categorizing and prioritizing tasks or projects based on their status.
+2026-02-04 12:05:38,123 | INFO | app_logger | 🚀 Application Started
+2026-02-04 12:07:00,164 | INFO | app_logger | Incoming Question (simple chat): List different types of banks with their stronghold
+2026-02-04 12:07:00,770 | INFO | app_logger | Generated Answer: Here are different types of banks with their stronghold:
+
+1. **Commercial Banks**: 
+   - Stronghold: Small and medium-sized businesses, individuals, and retail customers.
+   - Services: Checking and savings accounts, loans, credit cards, and investment services.
+
+2. **Investment Banks**: 
+   - Stronghold: Large corporations, governments, and institutional investors.
+   - Services: Underwriting and trading of securities, mergers and acquisitions, and advisory services.
+
+3. **Savings Banks**: 
+   - Stronghold: Low-income households and individuals.
+   - Services: Savings accounts, loans, and other basic banking services.
+
+4. **Central Banks**: 
+   - Stronghold: National governments and financial institutions.
+   - Services: Monetary policy, currency management, and banking regulation.
+
+5. **Cooperative Banks**: 
+   - Stronghold: Small businesses, farmers, and low-income households.
+   - Services: Loans, savings accounts, and other basic banking services.
+
+6. **Community Banks**: 
+   - Stronghold: Local communities, small businesses, and individuals.
+   - Services: Personalized banking services, loans, and other basic banking services.
+
+7. **Online Banks**: 
+   - Stronghold: Tech-savvy individuals and small businesses.
+   - Services: Online banking, mobile banking, and digital payment services.
+
+8. **Private Banks**: 
+   - Stronghold: High-net-worth individuals and families.
+   - Services: Wealth management, investment services, and personalized banking services.
+
+9. **Islamic Banks**: 
+   - Stronghold: Muslim communities and individuals.
+   - Services: Sharia-compliant banking services, including interest-free loans and investments.
+
+10. **Development Banks**: 
+    - Stronghold: Developing countries and low-income households.
+    - Services: Loans, grants, and other financial services for economic development.
+
+Note that these categories are not mutually exclusive, and many banks offer a range of services across multiple categories.
+2026-02-04 15:29:00,820 | INFO | app_logger | 🚀 Application Started
+2026-02-04 15:30:38,648 | INFO | app_logger | Incoming Question (simple chat): list different types of banks with their stronghold
+2026-02-04 15:30:39,442 | INFO | app_logger | Generated Answer: Here's a list of different types of banks and their stronghold:
+
+1. **Commercial Banks**: These banks provide a wide range of financial services to individuals and businesses. They have a strong presence in urban and rural areas.
+   - Stronghold: Urban and rural areas, including small towns and villages.
+
+2. **Investment Banks**: These banks specialize in investment and securities services, such as underwriting, mergers and acquisitions, and asset management.
+   - Stronghold: Major financial centers like New York, London, Tokyo, and Hong Kong.
+
+3. **Savings Banks**: These banks focus on accepting deposits and providing loans to individuals and small businesses.
+   - Stronghold: Europe, particularly in countries like Germany, France, and Italy.
+
+4. **Community Banks**: These banks serve local communities and provide personalized banking services to individuals and small businesses.
+   - Stronghold: Small towns and rural areas in the United States.
+
+5. **Cooperative Banks**: These banks are owned and controlled by their members, who share a common interest or goal.
+   - Stronghold: Countries like Germany, Italy, and Spain, where cooperative banking is prevalent.
+
+6. **Islamic Banks**: These banks operate according to Islamic principles and provide Sharia-compliant financial services.
+   - Stronghold: Middle Eastern and North African countries, as well as some countries in Southeast Asia.
+
+7. **Private Banks**: These banks cater to high-net-worth individuals and provide personalized wealth management services.
+   - Stronghold: Major financial centers like Zurich, Geneva, and Singapore.
+
+8. **Central Banks**: These banks are responsible for monetary policy and regulating the banking system in a country.
+   - Stronghold: Each country's capital city, such as Washington D.C. (Federal Reserve), London (Bank of England), and Tokyo (Bank of Japan).
+
+9. **Development Banks**: These banks focus on providing financing for development projects and promoting economic growth in developing countries.
+   - Stronghold: International organizations like the World Bank and regional development banks.
+
+10. **Online Banks**: These banks operate entirely online and provide digital banking services to customers.
+   - Stronghold: Global, with a strong presence in countries with high internet penetration rates.
+
+Note that these strongholds are not exhaustive and may vary depending on the specific bank and its operations.
+2026-02-04 15:36:06,131 | INFO | app_logger | Incoming Question (simple chat): What is Langchain
+2026-02-04 15:36:06,670 | INFO | app_logger | Generated Answer: Langchain is an open-source, decentralized platform for building and deploying large language models (LLMs). It was founded in 2022 by David Tian, and its main goal is to create a more accessible and collaborative environment for developing and using AI models.
+
+Langchain allows users to create, train, and deploy their own LLMs, as well as integrate them with other AI models and tools. The platform provides a range of features, including:
+
+1. Model training and deployment: Langchain allows users to train and deploy their own LLMs, using a variety of algorithms and architectures.
+2. Model integration: Users can integrate their LLMs with other AI models and tools, such as natural language processing (NLP) and computer vision models.
+3. Collaboration: Langchain provides a collaborative environment for developers to work together on AI projects, share knowledge, and learn from each other.
+4. Decentralized architecture: Langchain is built on a decentralized architecture, which allows for greater flexibility and scalability.
+
+Some of the key benefits of Langchain include:
+
+1. Increased accessibility: Langchain makes it easier for developers to build and deploy their own LLMs, without requiring extensive expertise or resources.
+2. Improved collaboration: Langchain's decentralized architecture and collaborative environment enable developers to work together more effectively, share knowledge, and learn from each other.
+3. Greater flexibility: Langchain's open-source and decentralized architecture allow for greater flexibility and scalability, making it easier to adapt to changing requirements and needs.
+
+Overall, Langchain is a powerful platform for building and deploying large language models, and its decentralized architecture and collaborative environment make it an attractive option for developers and researchers working in the field of AI.
+2026-02-05 13:12:24,002 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:12:24,005 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 13:12:24,009 | INFO | app_logger | 🚀 Application Started
+2026-02-05 13:12:30,327 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 13:12:59,323 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:12:59,324 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 13:12:59,328 | INFO | app_logger | 🚀 Application Started
+2026-02-05 13:13:32,960 | INFO | app_logger | 📩 Incoming Query: What is RAG
+2026-02-05 13:13:32,963 | INFO | app_logger | ✅ Response generated successfully
+2026-02-05 13:19:44,758 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 13:19:45,530 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:20:34,130 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:20:44,724 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:21:04,979 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:21:06,294 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:47:07,911 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:47:07,911 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 13:47:07,915 | INFO | app_logger | 🚀 Application Started
+2026-02-05 13:47:30,086 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 13:48:02,327 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 13:48:02,327 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 13:48:02,332 | INFO | app_logger | 🚀 Application Started
+2026-02-05 13:52:17,915 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:01:07,204 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:01:07,204 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:01:07,462 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:01:09,880 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:01:41,793 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:01:41,793 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:01:41,917 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:02:21,152 | INFO | app_logger | 📩 Incoming Query: Tell me about India
+2026-02-05 14:04:28,949 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:04:29,902 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:04:29,902 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:04:30,025 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:04:32,942 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:04:34,107 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:04:34,108 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:04:34,250 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:04:51,296 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:04:52,360 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:04:52,392 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:04:52,395 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:05:06,639 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:05:07,341 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:06:27,651 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:06:28,313 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:06:42,457 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:10:49,784 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:12:17,389 | INFO | app_logger | 📩 Incoming Query: what is a rag
+2026-02-05 14:12:17,390 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:12:17,390 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:12:20,024 | INFO | app_logger | ✅ Response generated successfully
+2026-02-05 14:13:59,598 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:14:00,259 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:14:20,012 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:14:20,667 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:14:20,972 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:14:21,953 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:15:20,518 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:15:24,753 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:15:30,268 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:15:30,964 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:15:34,477 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:15:35,235 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:15:39,253 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:16:06,691 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:18:03,895 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:18:05,797 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:18:23,543 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:18:24,240 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:18:39,078 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:18:39,815 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:18:58,687 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:18:59,356 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:19:00,191 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:19:19,747 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:19:37,190 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:21:00,314 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:21:00,862 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:21:20,214 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:21:20,682 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:21:43,660 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:21:44,430 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:21:44,960 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:22:19,149 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:22:19,149 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:23:13,813 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:23:14,291 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:23:33,440 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:23:34,063 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:23:46,195 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:23:46,798 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:23:53,521 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:25:08,864 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:25:57,931 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:25:57,931 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:27:07,910 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:27:10,817 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:27:17,440 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:27:18,155 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:27:18,155 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:27:37,564 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:27:37,564 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:27:37,589 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:28:45,084 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:28:45,734 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:28:45,734 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:28:45,761 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:28:46,064 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:28:46,647 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:28:46,647 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:28:46,672 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:29:29,493 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:29:30,087 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:29:30,088 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:29:30,112 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:29:42,247 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:29:42,835 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:29:42,835 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:29:42,858 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:29:50,881 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:31:22,309 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:31:22,309 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:31:22,332 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:33:30,189 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:33:32,830 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:33:32,830 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:33:32,857 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:33:38,974 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:33:39,582 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:33:39,582 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:33:39,605 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:34:08,788 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:34:09,362 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:34:09,362 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:34:09,385 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:35:20,476 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:35:37,238 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:35:37,238 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:35:37,263 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:35:52,308 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:46:42,150 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:46:42,150 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:46:42,175 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:47:13,388 | WARNING | app_logger | Wikipedia failed: 'str' object has no attribute 'get'
+2026-02-05 14:47:13,389 | WARNING | app_logger | Bing failed: BING_API_KEY not found in environment variables
+2026-02-05 14:49:32,650 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:49:33,257 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:49:33,257 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:49:33,283 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:49:44,429 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:49:45,061 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:49:45,061 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:49:45,095 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:50:00,540 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:50:01,192 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:50:01,192 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:50:01,216 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:50:13,153 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:50:14,048 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:50:14,048 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:50:14,070 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:53:50,362 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 14:54:27,197 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 14:54:27,197 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 14:54:27,219 | INFO | app_logger | 🚀 Application Started
+2026-02-05 14:55:01,894 | WARNING | app_logger | Bing failed: 401 Client Error: PermissionDenied for url: https://api.bing.microsoft.com/v7.0/search?q=What+is+Rag&mkt=en-IN&count=5
+2026-02-05 14:57:56,385 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:03:51,423 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:03:51,423 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 15:03:51,445 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:04:22,832 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:04:23,495 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:04:23,495 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 15:04:23,517 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:04:58,315 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:06:27,616 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:06:27,616 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 15:06:27,638 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:08:17,741 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:08:18,332 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:08:18,333 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 15:08:18,356 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:08:33,301 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:08:33,977 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:08:33,977 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 15:08:33,999 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:08:46,132 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:08:46,728 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:09:17,414 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:09:18,081 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:09:27,407 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:09:51,796 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:10:19,614 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:10:19,614 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 15:11:58,548 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:11:59,195 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:12:12,135 | INFO | app_logger | 🛑 Application Stopped
+2026-02-05 15:18:46,098 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:19:36,349 | INFO | app_logger | 🚀 Application Started
+2026-02-05 15:20:02,252 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:20:02,252 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-05 15:35:40,682 | INFO | app_logger | 🧠 Agent Initialized: ResearchAgent
+2026-02-05 15:35:40,683 | INFO | app_logger | 🧠 Agent Initialized: SummarizationAgent
+2026-02-06 14:33:49,355 | INFO | app_logger | 🚀 Application Started
+2026-02-06 14:35:08,065 | INFO | app_logger | 🛑 Application Stopped
+2026-02-06 14:35:08,740 | INFO | app_logger | 🚀 Application Started
+2026-02-06 14:38:49,325 | INFO | app_logger | 🛑 Application Stopped
+2026-02-06 14:59:12,826 | INFO | main | 🚀 Application Started
+2026-02-06 14:59:43,232 | INFO | api.routes | 📩 Incoming /chat request: What is rag
+2026-02-06 14:59:43,233 | INFO | ResearchAgent | 🧠 Agent Initialized
+2026-02-06 14:59:43,233 | INFO | SummarizationAgent | 🧠 Agent Initialized
+2026-02-06 14:59:43,233 | ERROR | api.routes | ❌ Error while processing /chat
+Traceback (most recent call last):
+  File "/workspaces/humind/app/api/routes.py", line 14, in chat
+    result = run_graph(req.question)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/graphs/orchestration_graph.py", line 8, in run_graph
+    research_out = research_agent.run(input_data["question"])
+                                      ~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2026-02-06 15:01:16,661 | INFO | main | 🛑 Application Stopped
+2026-02-06 15:01:17,351 | INFO | main | 🚀 Application Started
+2026-02-06 15:01:50,451 | INFO | api.routes | 📩 Incoming /chat request: what is ai
+2026-02-06 15:01:50,452 | INFO | graphs.orchestration | 🧠 Graph started
+2026-02-06 15:01:50,452 | INFO | ResearchAgent | 🧠 Agent Initialized
+2026-02-06 15:01:50,452 | INFO | SummarizationAgent | 🧠 Agent Initialized
+2026-02-06 15:01:50,452 | INFO | ResearchAgent | 🔎 Research started
+2026-02-06 15:01:50,452 | INFO | WikipediaTool | 📚 Wikipedia search started
+2026-02-06 15:01:51,838 | WARNING | ResearchAgent | Wikipedia failed: Page id "what is ar" does not match any pages. Try another id!
+2026-02-06 15:01:51,839 | INFO | SerpAPITool | 🔍 SerpAPI search started
+2026-02-06 15:01:55,762 | INFO | SerpAPITool | 🔍 SerpAPI search completed
+2026-02-06 15:01:55,763 | ERROR | api.routes | ❌ Error while processing /chat
+Traceback (most recent call last):
+  File "/workspaces/humind/app/api/routes.py", line 14, in chat
+    result = run_graph(req.question)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/graphs/orchestration_graph.py", line 14, in run_graph
+    summary = summarization_agent.run(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/agents/summarization_agent.py", line 10, in run
+    content = research_output.get("content", "")
+              ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-02-06 15:03:49,854 | INFO | main | 🛑 Application Stopped
+2026-02-06 15:04:36,672 | INFO | main | 🚀 Application Started
+2026-02-06 15:04:47,645 | INFO | api.routes | 📩 Incoming /chat request: what is ai
+2026-02-06 15:04:47,645 | INFO | graphs.orchestration | 🧠 Graph started
+2026-02-06 15:04:47,645 | INFO | ResearchAgent | 🧠 Agent Initialized
+2026-02-06 15:04:47,645 | INFO | SummarizationAgent | 🧠 Agent Initialized
+2026-02-06 15:04:47,646 | INFO | ResearchAgent | 🔎 Research started
+2026-02-06 15:04:47,646 | INFO | WikipediaTool | 📚 Wikipedia search started
+2026-02-06 15:04:48,869 | WARNING | ResearchAgent | Wikipedia failed: Page id "what is ar" does not match any pages. Try another id!
+2026-02-06 15:04:48,869 | INFO | SerpAPITool | 🔍 SerpAPI search started
+2026-02-06 15:04:49,279 | INFO | SerpAPITool | 🔍 SerpAPI search completed
+2026-02-06 15:04:49,280 | INFO | SummarizationAgent | ✍️ Summarization started
+2026-02-06 15:04:49,382 | ERROR | api.routes | ❌ Error while processing /chat
+Traceback (most recent call last):
+  File "/workspaces/humind/app/api/routes.py", line 14, in chat
+    result = run_graph(req.question)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/graphs/orchestration_graph.py", line 14, in run_graph
+    summary = summarization_agent.run(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/agents/summarization_agent.py", line 12, in run
+    answer = ask_llm(content)
+             ^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/services/llm_service.py", line 11, in ask_llm
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/groq/resources/chat/completions.py", line 461, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/groq/_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/groq/_base_client.py", line 1044, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-02-06 15:05:06,044 | INFO | api.routes | 📩 Incoming /chat request: what is ai
+2026-02-06 15:05:06,044 | INFO | graphs.orchestration | 🧠 Graph started
+2026-02-06 15:05:06,044 | INFO | ResearchAgent | 🧠 Agent Initialized
+2026-02-06 15:05:06,044 | INFO | SummarizationAgent | 🧠 Agent Initialized
+2026-02-06 15:05:06,044 | INFO | ResearchAgent | 🔎 Research started
+2026-02-06 15:05:06,045 | INFO | WikipediaTool | 📚 Wikipedia search started
+2026-02-06 15:05:06,642 | WARNING | ResearchAgent | Wikipedia failed: Page id "what is ar" does not match any pages. Try another id!
+2026-02-06 15:05:06,642 | INFO | SerpAPITool | 🔍 SerpAPI search started
+2026-02-06 15:05:06,696 | INFO | SerpAPITool | 🔍 SerpAPI search completed
+2026-02-06 15:05:06,696 | INFO | SummarizationAgent | ✍️ Summarization started
+2026-02-06 15:05:06,729 | ERROR | api.routes | ❌ Error while processing /chat
+Traceback (most recent call last):
+  File "/workspaces/humind/app/api/routes.py", line 14, in chat
+    result = run_graph(req.question)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/graphs/orchestration_graph.py", line 14, in run_graph
+    summary = summarization_agent.run(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/agents/summarization_agent.py", line 12, in run
+    answer = ask_llm(content)
+             ^^^^^^^^^^^^^^^^
+  File "/workspaces/humind/app/services/llm_service.py", line 11, in ask_llm
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/groq/resources/chat/completions.py", line 461, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/groq/_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/groq/_base_client.py", line 1044, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-02-06 15:06:25,858 | INFO | main | 🛑 Application Stopped

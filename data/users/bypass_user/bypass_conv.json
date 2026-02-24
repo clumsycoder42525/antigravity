@@ -1,0 +1,25 @@
+{
+  "conversation_id": "bypass_conv",
+  "messages": [
+    {
+      "role": "user",
+      "content": "My name is Parv.",
+      "timestamp": "2026-02-23T21:04:47.722415"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Parv. I'll remember that.",
+      "timestamp": "2026-02-23T21:04:47.725523"
+    },
+    {
+      "role": "user",
+      "content": "I am 22 years old.",
+      "timestamp": "2026-02-23T21:04:47.733757"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, 22 years old. I'll remember that.",
+      "timestamp": "2026-02-23T21:04:47.736879"
+    }
+  ]
+}

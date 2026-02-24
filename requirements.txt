@@ -1,0 +1,34 @@
+fastapi
+uvicorn
+
+# LangChain ecosystem (latest compatible split)
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Vector DB
+chromadb
+
+# Embeddings
+sentence-transformers
+torch
+transformers
+accelerate
+
+# File handling
+pypdf
+docx2txt
+python-multipart
+
+# Config
+python-dotenv
+pydantic-settings
+
+# HTTP
+requests
+
+wikipedia
+duckduckgo-search
+pysqlite3-binary
+groq

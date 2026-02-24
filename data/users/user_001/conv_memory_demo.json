@@ -1,0 +1,35 @@
+{
+  "conversation_id": "conv_memory_demo",
+  "messages": [
+    {
+      "role": "user",
+      "content": "My name is Parv.",
+      "timestamp": "2026-02-23T21:14:01.226052"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Parv. I'll remember that.",
+      "timestamp": "2026-02-23T21:14:01.239144"
+    },
+    {
+      "role": "user",
+      "content": "What is my name?",
+      "timestamp": "2026-02-23T21:14:18.432147"
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is Parv.",
+      "timestamp": "2026-02-23T21:14:18.445948"
+    },
+    {
+      "role": "user",
+      "content": "I will provide you some values that you had to remember and at the end of our conversation you need to return those stored values",
+      "timestamp": "2026-02-23T21:16:00.298291"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have that information yet.",
+      "timestamp": "2026-02-23T21:16:00.318445"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "identity": {},
+  "preferences": {},
+  "tasks": {},
+  "bookings": {
+    "3f90b8fb-92d1-4da7-a16f-67573323059f": {
+      "type": "flight",
+      "slots": {
+        "from": "London",
+        "to": null,
+        "date": null,
+        "class": null,
+        "passenger_count": null
+      },
+      "status": "in_progress"
+    }
+  },
+  "facts": {},
+  "conversation_summary": ""
+}

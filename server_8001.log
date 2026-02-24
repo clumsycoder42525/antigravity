@@ -1,0 +1,200 @@
+2026-02-21 18:51:39.589194: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-02-21 18:51:42.100645: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\ASUS\AppData\Local\Programs\Python\Python311\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Device set to use cpu
+INFO:     Started server process [26708]
+INFO:     Waiting for application startup.
+INFO:humind:\U0001f680 HUMIND System Starting...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+2026-02-21 18:52:26,775 | INFO | orchestration_graph | \U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:orchestration_graph:\U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 18:52:27,319 | INFO | IntentAgent | \U0001f9e0 Agent Initialized: IntentAgent
+INFO:IntentAgent:\U0001f9e0 Agent Initialized: IntentAgent
+2026-02-21 18:52:27,321 | INFO | ResearchAgent | \U0001f9e0 Agent Initialized: ResearchAgent
+INFO:ResearchAgent:\U0001f9e0 Agent Initialized: ResearchAgent
+2026-02-21 18:52:27,321 | INFO | ReasoningAgent | \U0001f9e0 Agent Initialized: ReasoningAgent
+INFO:ReasoningAgent:\U0001f9e0 Agent Initialized: ReasoningAgent
+2026-02-21 18:52:27,323 | INFO | DecisionAgent | \U0001f9e0 Agent Initialized: DecisionAgent
+INFO:DecisionAgent:\U0001f9e0 Agent Initialized: DecisionAgent
+2026-02-21 18:52:27,323 | INFO | IntentAgent | Analyzing intent for: What is the capital of France?
+INFO:IntentAgent:Analyzing intent for: What is the capital of France?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:27,686 | INFO | IntentAgent | Intent blueprint extracted successfully
+INFO:IntentAgent:Intent blueprint extracted successfully
+2026-02-21 18:52:27,687 | INFO | ResearchAgent | \U0001f50e Intelligent research synthesis started for: identify the capital of France
+INFO:ResearchAgent:\U0001f50e Intelligent research synthesis started for: identify the capital of France
+2026-02-21 18:52:31,679 | WARNING | WikipediaTool | Wikipedia page not found for: identify the capital of France
+WARNING:WikipediaTool:Wikipedia page not found for: identify the capital of France
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=identify%20the%20capital%20of%20France 200
+INFO:primp:response: https://grokipedia.com/api/typeahead?query=identify+the+capital+of+France&limit=1 200
+INFO:primp:response: https://yandex.com/search/site/?text=identify+the+capital+of+France&web=1&searchid=5146625 200
+2026-02-21 18:52:35,131 | INFO | DuckDuckGoTool | \U0001f986 DuckDuckGo search completed: 10 results
+INFO:DuckDuckGoTool:\U0001f986 DuckDuckGo search completed: 10 results
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:35,864 | INFO | ResearchAgent | Research synthesized successfully with 5 sources
+INFO:ResearchAgent:Research synthesized successfully with 5 sources
+2026-02-21 18:52:35,866 | INFO | ReasoningAgent | Expanding reasoning for: identify the capital of France
+INFO:ReasoningAgent:Expanding reasoning for: identify the capital of France
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:37,314 | INFO | ReasoningAgent | Reasoning map generated successfully
+INFO:ReasoningAgent:Reasoning map generated successfully
+2026-02-21 18:52:37,314 | INFO | DecisionAgent | Synthesizing final decision
+INFO:DecisionAgent:Synthesizing final decision
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:37,823 | INFO | DecisionAgent | Decision synthesis completed successfully
+INFO:DecisionAgent:Decision synthesis completed successfully
+INFO:     127.0.0.1:50526 - "POST /chat HTTP/1.1" 200 OK
+2026-02-21 18:52:39,871 | INFO | orchestration_graph | \U0001f9e0 Graph started | mode=keyword | provider=groq
+INFO:orchestration_graph:\U0001f9e0 Graph started | mode=keyword | provider=groq
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 18:52:40,336 | INFO | QuestionGeneratorAgent | \U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:QuestionGeneratorAgent:\U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+2026-02-21 18:52:40,337 | INFO | QuestionGeneratorAgent | Generating questions for keyword: Artificial Intelligence
+INFO:QuestionGeneratorAgent:Generating questions for keyword: Artificial Intelligence
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:40,794 | INFO | QuestionGeneratorAgent | Questions generated successfully
+INFO:QuestionGeneratorAgent:Questions generated successfully
+2026-02-21 18:52:40,794 | INFO | AnswerAgent | \U0001f9e0 Agent Initialized: AnswerAgent
+INFO:AnswerAgent:\U0001f9e0 Agent Initialized: AnswerAgent
+2026-02-21 18:52:40,794 | INFO | AnswerAgent | Answering multiple questions: 3
+INFO:AnswerAgent:Answering multiple questions: 3
+2026-02-21 18:52:40,794 | INFO | orchestration_graph | \U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:orchestration_graph:\U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 18:52:41,260 | INFO | IntentAgent | \U0001f9e0 Agent Initialized: IntentAgent
+INFO:IntentAgent:\U0001f9e0 Agent Initialized: IntentAgent
+2026-02-21 18:52:41,260 | INFO | ResearchAgent | \U0001f9e0 Agent Initialized: ResearchAgent
+INFO:ResearchAgent:\U0001f9e0 Agent Initialized: ResearchAgent
+2026-02-21 18:52:41,260 | INFO | ReasoningAgent | \U0001f9e0 Agent Initialized: ReasoningAgent
+INFO:ReasoningAgent:\U0001f9e0 Agent Initialized: ReasoningAgent
+2026-02-21 18:52:41,260 | INFO | DecisionAgent | \U0001f9e0 Agent Initialized: DecisionAgent
+INFO:DecisionAgent:\U0001f9e0 Agent Initialized: DecisionAgent
+2026-02-21 18:52:41,260 | INFO | IntentAgent | Analyzing intent for: What is the primary goal of Artificial Intelligence, in terms of its ability to perform tasks?
+INFO:IntentAgent:Analyzing intent for: What is the primary goal of Artificial Intelligence, in terms of its ability to perform tasks?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:41,817 | INFO | IntentAgent | Intent blueprint extracted successfully
+INFO:IntentAgent:Intent blueprint extracted successfully
+2026-02-21 18:52:41,819 | INFO | ResearchAgent | \U0001f50e Intelligent research synthesis started for: What is the primary goal of Artificial Intelligence?
+INFO:ResearchAgent:\U0001f50e Intelligent research synthesis started for: What is the primary goal of Artificial Intelligence?
+2026-02-21 18:52:46,018 | WARNING | WikipediaTool | Wikipedia page not found for: What is the primary goal of Artificial Intelligence?
+WARNING:WikipediaTool:Wikipedia page not found for: What is the primary goal of Artificial Intelligence?
+INFO:primp:response: https://grokipedia.com/api/typeahead?query=What+is+the+primary+goal+of+Artificial+Intelligence%3F&limit=1 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20the%20primary%20goal%20of%20Artificial%20Intelligence%3F 200
+INFO:primp:response: https://yandex.com/search/site/?text=What+is+the+primary+goal+of+Artificial+Intelligence%3F&web=1&searchid=8511705 200
+2026-02-21 18:52:48,066 | INFO | DuckDuckGoTool | \U0001f986 DuckDuckGo search completed: 10 results
+INFO:DuckDuckGoTool:\U0001f986 DuckDuckGo search completed: 10 results
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:48,679 | INFO | ResearchAgent | Research synthesized successfully with 5 sources
+INFO:ResearchAgent:Research synthesized successfully with 5 sources
+2026-02-21 18:52:48,679 | INFO | ReasoningAgent | Expanding reasoning for: What is the primary goal of Artificial Intelligence?
+INFO:ReasoningAgent:Expanding reasoning for: What is the primary goal of Artificial Intelligence?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:49,599 | ERROR | ReasoningAgent | Failed to parse reasoning map: Expecting ':' delimiter: line 1 column 2332 (char 2331)
+ERROR:ReasoningAgent:Failed to parse reasoning map: Expecting ':' delimiter: line 1 column 2332 (char 2331)
+2026-02-21 18:52:49,601 | INFO | DecisionAgent | Synthesizing final decision
+INFO:DecisionAgent:Synthesizing final decision
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:50,110 | INFO | DecisionAgent | Decision synthesis completed successfully
+INFO:DecisionAgent:Decision synthesis completed successfully
+2026-02-21 18:52:50,110 | INFO | orchestration_graph | \U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:orchestration_graph:\U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 18:52:50,536 | INFO | IntentAgent | \U0001f9e0 Agent Initialized: IntentAgent
+INFO:IntentAgent:\U0001f9e0 Agent Initialized: IntentAgent
+2026-02-21 18:52:50,538 | INFO | ResearchAgent | \U0001f9e0 Agent Initialized: ResearchAgent
+INFO:ResearchAgent:\U0001f9e0 Agent Initialized: ResearchAgent
+2026-02-21 18:52:50,539 | INFO | ReasoningAgent | \U0001f9e0 Agent Initialized: ReasoningAgent
+INFO:ReasoningAgent:\U0001f9e0 Agent Initialized: ReasoningAgent
+2026-02-21 18:52:50,540 | INFO | DecisionAgent | \U0001f9e0 Agent Initialized: DecisionAgent
+INFO:DecisionAgent:\U0001f9e0 Agent Initialized: DecisionAgent
+2026-02-21 18:52:50,540 | INFO | IntentAgent | Analyzing intent for: How does the concept of Narrow vs. General Intelligence relate to the capabilities and limitations of current AI systems?
+INFO:IntentAgent:Analyzing intent for: How does the concept of Narrow vs. General Intelligence relate to the capabilities and limitations of current AI systems?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:52:51,840 | INFO | IntentAgent | Intent blueprint extracted successfully
+INFO:IntentAgent:Intent blueprint extracted successfully
+2026-02-21 18:52:51,840 | INFO | ResearchAgent | \U0001f50e Intelligent research synthesis started for: What are the implications of Narrow vs. General Intelligence on current AI systems?
+INFO:ResearchAgent:\U0001f50e Intelligent research synthesis started for: What are the implications of Narrow vs. General Intelligence on current AI systems?
+2026-02-21 18:52:58,292 | INFO | WikipediaTool | \U0001f4d8 Wikipedia search completed for: Weak artificial intelligence
+INFO:WikipediaTool:\U0001f4d8 Wikipedia search completed for: Weak artificial intelligence
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20are%20the%20implications%20of%20Narrow%20vs.%20General%20Intelligence%20on%20current%20AI%20systems%3F 200
+INFO:primp:response: https://grokipedia.com/api/typeahead?query=What+are+the+implications+of+Narrow+vs.+General+Intelligence+on+current+AI+systems%3F&limit=1 200
+INFO:primp:response: https://www.google.com/search?q=What+are+the+implications+of+Narrow+vs.+General+Intelligence+on+current+AI+systems%3F&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://yandex.com/search/site/?text=What+are+the+implications+of+Narrow+vs.+General+Intelligence+on+current+AI+systems%3F&web=1&searchid=5111659 200
+2026-02-21 18:53:01,984 | INFO | DuckDuckGoTool | \U0001f986 DuckDuckGo search completed: 10 results
+INFO:DuckDuckGoTool:\U0001f986 DuckDuckGo search completed: 10 results
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:02,533 | INFO | ResearchAgent | Research synthesized successfully with 5 sources
+INFO:ResearchAgent:Research synthesized successfully with 5 sources
+2026-02-21 18:53:02,534 | INFO | ReasoningAgent | Expanding reasoning for: What are the implications of Narrow vs. General Intelligence on current AI systems?
+INFO:ReasoningAgent:Expanding reasoning for: What are the implications of Narrow vs. General Intelligence on current AI systems?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:08,833 | INFO | ReasoningAgent | Reasoning map generated successfully
+INFO:ReasoningAgent:Reasoning map generated successfully
+2026-02-21 18:53:08,834 | INFO | DecisionAgent | Synthesizing final decision
+INFO:DecisionAgent:Synthesizing final decision
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:20,519 | INFO | DecisionAgent | Decision synthesis completed successfully
+INFO:DecisionAgent:Decision synthesis completed successfully
+2026-02-21 18:53:20,522 | INFO | orchestration_graph | \U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:orchestration_graph:\U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 18:53:21,826 | INFO | IntentAgent | \U0001f9e0 Agent Initialized: IntentAgent
+INFO:IntentAgent:\U0001f9e0 Agent Initialized: IntentAgent
+2026-02-21 18:53:21,826 | INFO | ResearchAgent | \U0001f9e0 Agent Initialized: ResearchAgent
+INFO:ResearchAgent:\U0001f9e0 Agent Initialized: ResearchAgent
+2026-02-21 18:53:21,829 | INFO | ReasoningAgent | \U0001f9e0 Agent Initialized: ReasoningAgent
+INFO:ReasoningAgent:\U0001f9e0 Agent Initialized: ReasoningAgent
+2026-02-21 18:53:21,831 | INFO | DecisionAgent | \U0001f9e0 Agent Initialized: DecisionAgent
+INFO:DecisionAgent:\U0001f9e0 Agent Initialized: DecisionAgent
+2026-02-21 18:53:21,831 | INFO | IntentAgent | Analyzing intent for: What are some potential risks and challenges associated with the development and deployment of autonomous AI decision-making systems in high-stakes domains like healthcare or finance?
+INFO:IntentAgent:Analyzing intent for: What are some potential risks and challenges associated with the development and deployment of autonomous AI decision-making systems in high-stakes domains like healthcare or finance?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:23,496 | INFO | IntentAgent | Intent blueprint extracted successfully
+INFO:IntentAgent:Intent blueprint extracted successfully
+2026-02-21 18:53:23,497 | INFO | ResearchAgent | \U0001f50e Intelligent research synthesis started for: What are the potential risks and challenges associated with autonomous AI decision-making systems in high-stakes domains?
+INFO:ResearchAgent:\U0001f50e Intelligent research synthesis started for: What are the potential risks and challenges associated with autonomous AI decision-making systems in high-stakes domains?
+2026-02-21 18:53:33,842 | INFO | WikipediaTool | \U0001f4d8 Wikipedia search completed for: AI alignment
+INFO:WikipediaTool:\U0001f4d8 Wikipedia search completed for: AI alignment
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20are%20the%20potential%20risks%20and%20challenges%20associated%20with%20autonomous%20AI%20decision-making%20systems%20in%20high-stakes%20domains%3F 200
+INFO:primp:response: https://grokipedia.com/api/typeahead?query=What+are+the+potential+risks+and+challenges+associated+with+autonomous+AI+decision-making+systems+in+high-stakes+domains%3F&limit=1 200
+INFO:httpx:HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-21 18:53:36,899 | INFO | DuckDuckGoTool | \U0001f986 DuckDuckGo search completed: 10 results
+INFO:DuckDuckGoTool:\U0001f986 DuckDuckGo search completed: 10 results
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:37,526 | INFO | ResearchAgent | Research synthesized successfully with 5 sources
+INFO:ResearchAgent:Research synthesized successfully with 5 sources
+2026-02-21 18:53:37,526 | INFO | ReasoningAgent | Expanding reasoning for: What are the potential risks and challenges associated with autonomous AI decision-making systems in high-stakes domains?
+INFO:ReasoningAgent:Expanding reasoning for: What are the potential risks and challenges associated with autonomous AI decision-making systems in high-stakes domains?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:38,790 | INFO | ReasoningAgent | Reasoning map generated successfully
+INFO:ReasoningAgent:Reasoning map generated successfully
+2026-02-21 18:53:38,792 | INFO | DecisionAgent | Synthesizing final decision
+INFO:DecisionAgent:Synthesizing final decision
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:50,436 | INFO | DecisionAgent | Decision synthesis completed successfully
+INFO:DecisionAgent:Decision synthesis completed successfully
+INFO:     127.0.0.1:52465 - "POST /chat HTTP/1.1" 200 OK
+2026-02-21 18:53:52,530 | INFO | orchestration_graph | \U0001f9e0 Graph started | mode=evaluation | provider=groq
+INFO:orchestration_graph:\U0001f9e0 Graph started | mode=evaluation | provider=groq
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 18:53:53,677 | INFO | EvaluationAgent | \U0001f9e0 Agent Initialized: EvaluationAgent
+INFO:EvaluationAgent:\U0001f9e0 Agent Initialized: EvaluationAgent
+2026-02-21 18:53:53,681 | INFO | EvaluationAgent | Evaluating 2 question-answer pairs
+INFO:EvaluationAgent:Evaluating 2 question-answer pairs
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 18:53:54,726 | INFO | EvaluationAgent | Evaluation completed successfully
+INFO:EvaluationAgent:Evaluation completed successfully
+INFO:     127.0.0.1:50662 - "POST /chat HTTP/1.1" 200 OK

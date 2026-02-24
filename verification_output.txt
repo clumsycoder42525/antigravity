@@ -1,0 +1,23 @@
+2026-02-23 21:09:02,363 | INFO | MemoryAgent | \U0001f9e0 Agent Initialized: MemoryAgent
+2026-02-23 21:09:02,365 | INFO | SummarizationAgent | \U0001f9e0 Agent Initialized: SummarizationAgent
+--- Phase 1: Identity and Age ---
+Extracted Slots: {'name': 'parv', 'age': '22'}
+Q: What is my name? -> A: Your name is Parv.
+Q: How old am i? -> A: You are 22 years old.
+
+--- Phase 2: Overwrites ---
+Q: Who am I? -> A: Your name is Arjun.
+
+--- Phase 3: Task-related Memory ---
+Q: When is my exam? -> A: Your exam is on monday.
+Q: What certificate did I mention? -> A: You mentioned aws certified.
+
+--- Phase 4: Generic Memory ---
+Q: What did I tell you about my favorite food? -> A: You mentioned that your favorite food is pizza.
+
+--- Phase 5: Fuzzy & Multi-turn ---
+Q: You remember my city right? -> Not detected as recall by current patterns
+Q: Where do I live? -> A: You live in Delhi.
+
+--- Phase 6: Synconyms/Case ---
+Q: What certification do i have? -> A: You mentioned aws certified.

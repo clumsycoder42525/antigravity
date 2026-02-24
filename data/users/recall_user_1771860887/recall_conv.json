@@ -1,0 +1,75 @@
+{
+  "conversation_id": "recall_conv",
+  "messages": [
+    {
+      "role": "user",
+      "content": "My name is Parv.",
+      "timestamp": "2026-02-23T21:04:47.744099"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Parv. I'll remember that.",
+      "timestamp": "2026-02-23T21:04:47.747609"
+    },
+    {
+      "role": "user",
+      "content": "I am 22 years old.",
+      "timestamp": "2026-02-23T21:04:47.752942"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, 22 years old. I'll remember that.",
+      "timestamp": "2026-02-23T21:04:47.756176"
+    },
+    {
+      "role": "user",
+      "content": "I live in Delhi.",
+      "timestamp": "2026-02-23T21:04:47.761086"
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. You live in Delhi.",
+      "timestamp": "2026-02-23T21:04:47.764833"
+    },
+    {
+      "role": "user",
+      "content": "I have a AWS certification.",
+      "timestamp": "2026-02-23T21:04:47.771321"
+    },
+    {
+      "role": "assistant",
+      "content": "I've noted that your certificate is a aws.",
+      "timestamp": "2026-02-23T21:04:47.776174"
+    },
+    {
+      "role": "user",
+      "content": "My exam is on Monday.",
+      "timestamp": "2026-02-23T21:04:47.784828"
+    },
+    {
+      "role": "assistant",
+      "content": "I've noted that your exam is monday.",
+      "timestamp": "2026-02-23T21:04:47.787289"
+    },
+    {
+      "role": "user",
+      "content": "I am working on AI Optimization project.",
+      "timestamp": "2026-02-23T21:04:47.793203"
+    },
+    {
+      "role": "assistant",
+      "content": "I've noted that your project is ai optimization.",
+      "timestamp": "2026-02-23T21:04:47.797396"
+    },
+    {
+      "role": "user",
+      "content": "What is my name?",
+      "timestamp": "2026-02-23T21:04:47.803068"
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is 22 years old.",
+      "timestamp": "2026-02-23T21:04:47.808651"
+    }
+  ]
+}

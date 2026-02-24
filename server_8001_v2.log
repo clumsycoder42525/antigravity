@@ -1,0 +1,104 @@
+2026-02-21 19:08:50.119962: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-02-21 19:08:53.166382: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\ASUS\AppData\Local\Programs\Python\Python311\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Device set to use cpu
+INFO:     Started server process [25664]
+INFO:     Waiting for application startup.
+INFO:humind:\U0001f680 HUMIND System Starting...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+2026-02-21 19:09:17,187 | INFO | QuestionGeneratorAgent | \U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:QuestionGeneratorAgent:\U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 19:09:19,286 | INFO | QuestionGeneratorAgent | Generating 3 medium questions for: Artificial Intelligence
+INFO:QuestionGeneratorAgent:Generating 3 medium questions for: Artificial Intelligence
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:55801 - "POST /generate-questions HTTP/1.1" 200 OK
+2026-02-21 19:09:22,179 | INFO | AnswerAgent | \U0001f9e0 Agent Initialized: AnswerAgent
+INFO:AnswerAgent:\U0001f9e0 Agent Initialized: AnswerAgent
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 19:09:23,440 | INFO | AnswerAgent | Answering 2 questions
+INFO:AnswerAgent:Answering 2 questions
+2026-02-21 19:09:23,449 | INFO | AnswerAgent | Processing question: What is Artificial Intelligence?...
+INFO:AnswerAgent:Processing question: What is Artificial Intelligence?...
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 19:09:24,185 | INFO | AnswerAgent | Processing question: How does machine learning differ from deep learnin...
+INFO:AnswerAgent:Processing question: How does machine learning differ from deep learnin...
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 19:09:25,042 | INFO | AnswerAgent | Batch answering completed
+INFO:AnswerAgent:Batch answering completed
+INFO:     127.0.0.1:49689 - "POST /answer HTTP/1.1" 200 OK
+2026-02-21 19:09:27,114 | INFO | EvaluationAgent | \U0001f9e0 Agent Initialized: EvaluationAgent
+INFO:EvaluationAgent:\U0001f9e0 Agent Initialized: EvaluationAgent
+2026-02-21 19:09:27,117 | INFO | EvaluationAgent | Evaluating 1 pairs | strict=True
+INFO:EvaluationAgent:Evaluating 1 pairs | strict=True
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+INFO:app.services.llm_service:\U0001f535 Generating response using provider: groq
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:49697 - "POST /evaluate HTTP/1.1" 200 OK
+2026-02-21 19:09:31,105 | INFO | orchestration_graph | \U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:orchestration_graph:\U0001f9e0 Graph started | mode=chat | provider=groq
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 19:09:32,373 | INFO | IntentAgent | \U0001f9e0 Agent Initialized: IntentAgent
+INFO:IntentAgent:\U0001f9e0 Agent Initialized: IntentAgent
+2026-02-21 19:09:32,378 | INFO | ResearchAgent | \U0001f9e0 Agent Initialized: ResearchAgent
+INFO:ResearchAgent:\U0001f9e0 Agent Initialized: ResearchAgent
+2026-02-21 19:09:32,380 | INFO | ReasoningAgent | \U0001f9e0 Agent Initialized: ReasoningAgent
+INFO:ReasoningAgent:\U0001f9e0 Agent Initialized: ReasoningAgent
+2026-02-21 19:09:32,385 | INFO | DecisionAgent | \U0001f9e0 Agent Initialized: DecisionAgent
+INFO:DecisionAgent:\U0001f9e0 Agent Initialized: DecisionAgent
+2026-02-21 19:09:32,387 | INFO | IntentAgent | Analyzing intent for: What is the capital of France?
+INFO:IntentAgent:Analyzing intent for: What is the capital of France?
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 19:09:32,790 | INFO | IntentAgent | Intent blueprint extracted successfully
+INFO:IntentAgent:Intent blueprint extracted successfully
+2026-02-21 19:09:32,792 | INFO | ResearchAgent | \U0001f50e Intelligent research synthesis started for: Identify the capital of France
+INFO:ResearchAgent:\U0001f50e Intelligent research synthesis started for: Identify the capital of France
+2026-02-21 19:09:39,587 | WARNING | WikipediaTool | Wikipedia page not found for: Identify the capital of France
+WARNING:WikipediaTool:Wikipedia page not found for: Identify the capital of France
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Identify%20the%20capital%20of%20France 200
+INFO:primp:response: https://grokipedia.com/api/typeahead?query=Identify+the+capital+of+France&limit=1 200
+INFO:primp:response: https://search.brave.com/search?q=Identify+the+capital+of+France&source=web 200
+2026-02-21 19:09:43,402 | INFO | DuckDuckGoTool | \U0001f986 DuckDuckGo search completed: 10 results
+INFO:DuckDuckGoTool:\U0001f986 DuckDuckGo search completed: 10 results
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 19:09:43,916 | INFO | ResearchAgent | Research synthesized successfully with 5 sources
+INFO:ResearchAgent:Research synthesized successfully with 5 sources
+2026-02-21 19:09:43,920 | INFO | ReasoningAgent | Expanding reasoning for: Identify the capital of France
+INFO:ReasoningAgent:Expanding reasoning for: Identify the capital of France
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 19:09:44,908 | INFO | ReasoningAgent | Reasoning map generated successfully
+INFO:ReasoningAgent:Reasoning map generated successfully
+2026-02-21 19:09:44,911 | INFO | DecisionAgent | Synthesizing final decision
+INFO:DecisionAgent:Synthesizing final decision
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-21 19:09:45,492 | INFO | DecisionAgent | Decision synthesis completed successfully
+INFO:DecisionAgent:Decision synthesis completed successfully
+INFO:     127.0.0.1:49702 - "POST /chat HTTP/1.1" 200 OK
+2026-02-21 19:19:33,176 | INFO | QuestionGeneratorAgent | \U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:QuestionGeneratorAgent:\U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 19:19:33,728 | INFO | QuestionGeneratorAgent | Generating 3 hard questions for: Quantum Computing
+INFO:QuestionGeneratorAgent:Generating 3 hard questions for: Quantum Computing
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:54165 - "POST /generate-questions HTTP/1.1" 200 OK
+2026-02-21 19:19:57,482 | INFO | QuestionGeneratorAgent | \U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:QuestionGeneratorAgent:\U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 19:19:57,878 | INFO | QuestionGeneratorAgent | Generating 3 hard questions for: Quantum Computing
+INFO:QuestionGeneratorAgent:Generating 3 hard questions for: Quantum Computing
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:60685 - "POST /generate-questions HTTP/1.1" 200 OK
+2026-02-21 19:20:12,514 | INFO | QuestionGeneratorAgent | \U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:QuestionGeneratorAgent:\U0001f9e0 Agent Initialized: QuestionGeneratorAgent
+INFO:app.llm_providers.factory:Creating LLM provider: groq
+2026-02-21 19:20:12,976 | INFO | QuestionGeneratorAgent | Generating 3 hard questions for: Quantum Computing
+INFO:QuestionGeneratorAgent:Generating 3 hard questions for: Quantum Computing
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:61113 - "POST /generate-questions HTTP/1.1" 200 OK
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFDCA0ED64D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFDCB41E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFDCCB0C40C  Unknown               Unknown  Unknown

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+langchain
+langchain-groq
+langgraph
+wikipedia
+duckduckgo-search
+google-search-results

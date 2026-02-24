@@ -1,0 +1,25 @@
+
+--- Testing /generate-questions (New Schema) ---
+Status: 200
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "conceptual",
+      "difficulty": "hard",
+      "question": "What is the relationship between the many-worlds interpretation and the concept of wave function collapse in quantum mechanics?"
+    },
+    {
+      "id": 2,
+      "type": "analytical",
+      "difficulty": "hard",
+      "question": "Derive the quantum circuit for simulating the Grover's algorithm, and explain its time complexity."
+    },
+    {
+      "id": 3,
+      "type": "factual",
+      "difficulty": "hard",
+      "question": "Describe the process of quantum error correction using surface codes, and explain its advantages over other methods."
+    }
+  ]
+}

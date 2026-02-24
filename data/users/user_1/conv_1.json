@@ -1,0 +1,15 @@
+{
+  "conversation_id": "conv_1",
+  "messages": [
+    {
+      "role": "user",
+      "content": "My name is Parv.",
+      "timestamp": "2026-02-23T20:48:59.874554"
+    },
+    {
+      "role": "assistant",
+      "content": "{'executive_summary': 'Error parsing LLM response', 'final_recommendation': 'Manual review required', 'key_rationale': ['Error: Provider error: Ollama is unavailable or misconfigured.'], 'major_risks': ['Parsing failure'], 'assumptions_made': [], 'next_steps': ['Retry with normalized input']}",
+      "timestamp": "2026-02-23T20:49:24.083891"
+    }
+  ]
+}

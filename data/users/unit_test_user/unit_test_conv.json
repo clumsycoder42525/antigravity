@@ -1,0 +1,35 @@
+{
+  "conversation_id": "unit_test_conv",
+  "messages": [
+    {
+      "role": "user",
+      "content": "My name is Antigravity.",
+      "timestamp": "2026-02-23T20:54:34.940794"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello Antigravity.",
+      "timestamp": "2026-02-23T20:54:34.944940"
+    },
+    {
+      "role": "user",
+      "content": "My name is Antigravity.",
+      "timestamp": "2026-02-23T21:04:27.596886"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello Antigravity.",
+      "timestamp": "2026-02-23T21:04:27.601604"
+    },
+    {
+      "role": "user",
+      "content": "My name is Antigravity.",
+      "timestamp": "2026-02-23T21:04:47.700777"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello Antigravity.",
+      "timestamp": "2026-02-23T21:04:47.704819"
+    }
+  ]
+}
